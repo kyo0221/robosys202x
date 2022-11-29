@@ -1,5 +1,5 @@
 # robosys202x
-ロボットシステム学の練習レポジトリ(PGKS)
+ロボットシステム学の練習レポジトリ
 
 # plusコマンド
 ![test](https://github.com/kyo0221/robosys202x/actions/workflows/test.yml/badge.svg)
