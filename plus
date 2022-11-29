@@ -1,16 +1,16 @@
 #!/usr/bin/python3
 # SPDX-FileCopyrightText: 2022 Kyo Yamashita
-# SPDX-License-Identifier: GPL-3.0
+# SPDX-License-Identifier: BSD-3-Clause
 
 import sys
 
 ans = 0
 for line in sys.stdin:
+    line = line.rstrip()
     try:
         ans += int(line)
     except:
         ans += float(line)
 
-print(sys)
 print(ans)
 
